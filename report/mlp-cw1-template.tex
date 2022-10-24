@@ -228,7 +228,7 @@ First we analyze three methods separately, train each over a set of hyperparamet
 In this section, we briefly study a method~\cite{loshchilov2019decoupled} that  decouples the weight penalty from the weight update.
 The authors shed light onto the relation between weight decay and L2 weight penalty for SGD and Adam optimizers, pointing out that weight decay and L2 weight penalty are not equivalent when used with the Adam optimizer.
 
-In particular, the authors claim that SGD with L2 weight penalty and weight decay are equivalent when their coefficients have the relation $\lambda'=\frac{\lambda}{2}$ (see their \textbf{Proposal 1}), which they prove with Equations~(5) and (6) (proof is in their Appendix A).
+In particular, the authors claim that SGD with L2 weight penalty and weight decay are equivalent when their coefficients have the relation $\lambda'=\frac{\lambda}{\alpha}$ (see their \textbf{Proposal 1}), which they prove with Equations~(5) and (6) (proof is in their Appendix A).
 In addition, they claim that such a simple scalar relation does not hold in Adam optimization (see \textbf{Proposal 2}) and show, in their Appendix A, that the necessary relation for equivalence requires use of a preconditioner matrix $\bm{M}_t$.
 This requirement can be explained with the fact that \questionSixteen.
 
