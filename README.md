@@ -1,6 +1,6 @@
 # Machine Learning Practical
 
-This repository contains the code for the University of Edinburgh [School of Informatics](http://www.inf.ed.ac.uk) course [Machine Learning Practical](http://www.inf.ed.ac.uk/teaching/courses/mlp/).
+This repository contains the code for the University of Edinburgh [School of Informatics](http://www.inf.ed.ac.uk) course Machine Learning Practical.
 
 This assignment-based course is focused on the implementation and evaluation of machine learning systems. Students who do this course will have experience in the design, implementation, training, and evaluation of machine learning systems.
 
@@ -16,3 +16,4 @@ If you are working remotely, follow this [guide](notes/remote-working-guide.md).
 ## Getting set up
 
 Detailed instructions for setting up a development environment for the course are given in [this file](notes/environment-set-up.md). Students doing the course will spend part of the first lab getting their own environment set up.
+
